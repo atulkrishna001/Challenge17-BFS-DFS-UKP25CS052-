@@ -1,0 +1,14 @@
+Enter number of nodes: 6
+Enter file/directory names (single words):
+Enter number of connections: 5
+Enter connected node names: Root Documents
+Enter connected node names: Root Pictures
+Enter connected node names: Documents notes.txt
+Enter connected node names: Pictures photo.jpg
+Enter connected node names: Root Projects
+Enter starting node: Root
+Enter file to search: notes.txt
+BFS traversal: Root Documents Pictures Projects notes.txt photo.jpg
+BFS result: File found
+DFS traversal: Root Documents notes.txt Pictures photo.jpg Projects
+DFS result: File found
